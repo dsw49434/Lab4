@@ -34,7 +34,9 @@ if [ "$1" == "--help" ] || [ "$1" == "-h"];
 then
   echo "--date/-d - podaje date"
   echo "--logs/-l - utworzy 100 plikow logs"
-  exit 0
+  echo "--error/-e - utworzy 100 plikow error"
+  echo "--error30/-e30 - utworzy 30 plikow error"
+exit 0
 fi
 
 if [ "$1" == "--init"];
